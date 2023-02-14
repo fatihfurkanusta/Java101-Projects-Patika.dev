@@ -22,7 +22,7 @@ public class Match {
                     i++;
                     System.out.println("-----ROUND " + i + "-----");
 
-                    this.f2.health = this.f1.hit(this.f2);
+                    this.f2.health = this.f1.hait(this.f2);
 
                     if (isWin()) {
                         System.out.println("Muhammed Ali Sağlığı: " + f1.health);
